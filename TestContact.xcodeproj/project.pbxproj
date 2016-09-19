@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD085011D8F75B300F058F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD085001D8F75B300F058F1 /* AppDelegate.swift */; };
+		CAD085031D8F75B300F058F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD085021D8F75B300F058F1 /* ViewController.swift */; };
+		CAD085061D8F75B300F058F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD085041D8F75B300F058F1 /* Main.storyboard */; };
+		CAD085081D8F75B300F058F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD085071D8F75B300F058F1 /* Assets.xcassets */; };
+		CAD0850B1D8F75B300F058F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD085091D8F75B300F058F1 /* LaunchScreen.storyboard */; };
+		CAD085161D8F75B300F058F1 /* TestContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD085151D8F75B300F058F1 /* TestContactTests.swift */; };
+		CAD085211D8F75B300F058F1 /* TestContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD085201D8F75B300F058F1 /* TestContactUITests.swift */; };
+		CAD0852F1D8F761C00F058F1 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD0852E1D8F761C00F058F1 /* ContactsUI.framework */; };
+		CAD085311D8F789D00F058F1 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD085301D8F789D00F058F1 /* Contacts.framework */; };
+		CAD085471D8F80D300F058F1 /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAD085461D8F80D300F058F1 /* 100.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD085121D8F75B300F058F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD084F51D8F75B300F058F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD084FC1D8F75B300F058F1;
+			remoteInfo = TestContact;
+		};
+		CAD0851D1D8F75B300F058F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD084F51D8F75B300F058F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD084FC1D8F75B300F058F1;
+			remoteInfo = TestContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD084FD1D8F75B300F058F1 /* TestContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD085001D8F75B300F058F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD085021D8F75B300F058F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD085051D8F75B300F058F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD085071D8F75B300F058F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD0850A1D8F75B300F058F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD0850C1D8F75B300F058F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD085111D8F75B300F058F1 /* TestContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD085151D8F75B300F058F1 /* TestContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContactTests.swift; sourceTree = "<group>"; };
+		CAD085171D8F75B300F058F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD0851C1D8F75B300F058F1 /* TestContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD085201D8F75B300F058F1 /* TestContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContactUITests.swift; sourceTree = "<group>"; };
+		CAD085221D8F75B300F058F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD0852E1D8F761C00F058F1 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		CAD085301D8F789D00F058F1 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		CAD085461D8F80D300F058F1 /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD084FA1D8F75B300F058F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD085311D8F789D00F058F1 /* Contacts.framework in Frameworks */,
+				CAD0852F1D8F761C00F058F1 /* ContactsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD0850E1D8F75B300F058F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD085191D8F75B300F058F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD084F41D8F75B300F058F1 = {
+			isa = PBXGroup;
+			children = (
+				CAD085301D8F789D00F058F1 /* Contacts.framework */,
+				CAD0852E1D8F761C00F058F1 /* ContactsUI.framework */,
+				CAD084FF1D8F75B300F058F1 /* TestContact */,
+				CAD085141D8F75B300F058F1 /* TestContactTests */,
+				CAD0851F1D8F75B300F058F1 /* TestContactUITests */,
+				CAD084FE1D8F75B300F058F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD084FE1D8F75B300F058F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD084FD1D8F75B300F058F1 /* TestContact.app */,
+				CAD085111D8F75B300F058F1 /* TestContactTests.xctest */,
+				CAD0851C1D8F75B300F058F1 /* TestContactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD084FF1D8F75B300F058F1 /* TestContact */ = {
+			isa = PBXGroup;
+			children = (
+				CAD085461D8F80D300F058F1 /* 100.jpg */,
+				CAD085001D8F75B300F058F1 /* AppDelegate.swift */,
+				CAD085021D8F75B300F058F1 /* ViewController.swift */,
+				CAD085041D8F75B300F058F1 /* Main.storyboard */,
+				CAD085071D8F75B300F058F1 /* Assets.xcassets */,
+				CAD085091D8F75B300F058F1 /* LaunchScreen.storyboard */,
+				CAD0850C1D8F75B300F058F1 /* Info.plist */,
+			);
+			path = TestContact;
+			sourceTree = "<group>";
+		};
+		CAD085141D8F75B300F058F1 /* TestContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD085151D8F75B300F058F1 /* TestContactTests.swift */,
+				CAD085171D8F75B300F058F1 /* Info.plist */,
+			);
+			path = TestContactTests;
+			sourceTree = "<group>";
+		};
+		CAD0851F1D8F75B300F058F1 /* TestContactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD085201D8F75B300F058F1 /* TestContactUITests.swift */,
+				CAD085221D8F75B300F058F1 /* Info.plist */,
+			);
+			path = TestContactUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD084FC1D8F75B300F058F1 /* TestContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD085251D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContact" */;
+			buildPhases = (
+				CAD084F91D8F75B300F058F1 /* Sources */,
+				CAD084FA1D8F75B300F058F1 /* Frameworks */,
+				CAD084FB1D8F75B300F058F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestContact;
+			productName = TestContact;
+			productReference = CAD084FD1D8F75B300F058F1 /* TestContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD085101D8F75B300F058F1 /* TestContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD085281D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContactTests" */;
+			buildPhases = (
+				CAD0850D1D8F75B300F058F1 /* Sources */,
+				CAD0850E1D8F75B300F058F1 /* Frameworks */,
+				CAD0850F1D8F75B300F058F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD085131D8F75B300F058F1 /* PBXTargetDependency */,
+			);
+			name = TestContactTests;
+			productName = TestContactTests;
+			productReference = CAD085111D8F75B300F058F1 /* TestContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD0851B1D8F75B300F058F1 /* TestContactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD0852B1D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContactUITests" */;
+			buildPhases = (
+				CAD085181D8F75B300F058F1 /* Sources */,
+				CAD085191D8F75B300F058F1 /* Frameworks */,
+				CAD0851A1D8F75B300F058F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD0851E1D8F75B300F058F1 /* PBXTargetDependency */,
+			);
+			name = TestContactUITests;
+			productName = TestContactUITests;
+			productReference = CAD0851C1D8F75B300F058F1 /* TestContactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD084F51D8F75B300F058F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ivy;
+				TargetAttributes = {
+					CAD084FC1D8F75B300F058F1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 25TR5G565J;
+					};
+					CAD085101D8F75B300F058F1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CAD084FC1D8F75B300F058F1;
+					};
+					CAD0851B1D8F75B300F058F1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CAD084FC1D8F75B300F058F1;
+					};
+				};
+			};
+			buildConfigurationList = CAD084F81D8F75B300F058F1 /* Build configuration list for PBXProject "TestContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD084F41D8F75B300F058F1;
+			productRefGroup = CAD084FE1D8F75B300F058F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD084FC1D8F75B300F058F1 /* TestContact */,
+				CAD085101D8F75B300F058F1 /* TestContactTests */,
+				CAD0851B1D8F75B300F058F1 /* TestContactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD084FB1D8F75B300F058F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD085471D8F80D300F058F1 /* 100.jpg in Resources */,
+				CAD0850B1D8F75B300F058F1 /* LaunchScreen.storyboard in Resources */,
+				CAD085081D8F75B300F058F1 /* Assets.xcassets in Resources */,
+				CAD085061D8F75B300F058F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD0850F1D8F75B300F058F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD0851A1D8F75B300F058F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD084F91D8F75B300F058F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD085031D8F75B300F058F1 /* ViewController.swift in Sources */,
+				CAD085011D8F75B300F058F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD0850D1D8F75B300F058F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD085161D8F75B300F058F1 /* TestContactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD085181D8F75B300F058F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD085211D8F75B300F058F1 /* TestContactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD085131D8F75B300F058F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD084FC1D8F75B300F058F1 /* TestContact */;
+			targetProxy = CAD085121D8F75B300F058F1 /* PBXContainerItemProxy */;
+		};
+		CAD0851E1D8F75B300F058F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD084FC1D8F75B300F058F1 /* TestContact */;
+			targetProxy = CAD0851D1D8F75B300F058F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD085041D8F75B300F058F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD085051D8F75B300F058F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD085091D8F75B300F058F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD0850A1D8F75B300F058F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD085231D8F75B300F058F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD085241D8F75B300F058F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD085261D8F75B300F058F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivy Chen (32YL5CB25Y)";
+				INFOPLIST_FILE = TestContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastmoney.iphone.Test5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6c82eeea-58f4-4f26-9821-a8dadc7e3750";
+			};
+			name = Debug;
+		};
+		CAD085271D8F75B300F058F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivy Chen (32YL5CB25Y)";
+				INFOPLIST_FILE = TestContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastmoney.iphone.Test5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6c82eeea-58f4-4f26-9821-a8dadc7e3750";
+			};
+			name = Release;
+		};
+		CAD085291D8F75B300F058F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestContact.app/TestContact";
+			};
+			name = Debug;
+		};
+		CAD0852A1D8F75B300F058F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestContact.app/TestContact";
+			};
+			name = Release;
+		};
+		CAD0852C1D8F75B300F058F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestContact;
+			};
+			name = Debug;
+		};
+		CAD0852D1D8F75B300F058F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivy.use.TestContactUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestContact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD084F81D8F75B300F058F1 /* Build configuration list for PBXProject "TestContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD085231D8F75B300F058F1 /* Debug */,
+				CAD085241D8F75B300F058F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD085251D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD085261D8F75B300F058F1 /* Debug */,
+				CAD085271D8F75B300F058F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD085281D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD085291D8F75B300F058F1 /* Debug */,
+				CAD0852A1D8F75B300F058F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD0852B1D8F75B300F058F1 /* Build configuration list for PBXNativeTarget "TestContactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD0852C1D8F75B300F058F1 /* Debug */,
+				CAD0852D1D8F75B300F058F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD084F51D8F75B300F058F1 /* Project object */;
+}

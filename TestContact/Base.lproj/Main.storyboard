@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tYc-Yi-QmU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--contact-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestContact" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0U-yZ-u5d">
+                                <rect key="frame" x="125" y="133" width="87" height="30"/>
+                                <state key="normal" title="new Contact"/>
+                                <connections>
+                                    <action selector="newContact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7dw-5w-Bry"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg7-9x-VT2">
+                                <rect key="frame" x="125" y="190" width="81" height="30"/>
+                                <state key="normal" title="get Contact"/>
+                                <connections>
+                                    <action selector="getContact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oHT-4G-tf7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqb-Na-Pxg">
+                                <rect key="frame" x="125" y="247" width="110" height="30"/>
+                                <state key="normal" title="update contract"/>
+                                <connections>
+                                    <action selector="updateContract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oz0-Ks-RwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMW-Cg-Trg">
+                                <rect key="frame" x="125" y="304" width="72" height="30"/>
+                                <state key="normal" title="present vc"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w0U-yZ-u5d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="69" id="51f-NN-9Lv"/>
+                            <constraint firstItem="bqb-Na-Pxg" firstAttribute="leading" secondItem="Wg7-9x-VT2" secondAttribute="leading" id="A1Y-bz-ADH"/>
+                            <constraint firstItem="Wg7-9x-VT2" firstAttribute="leading" secondItem="w0U-yZ-u5d" secondAttribute="leading" id="BlO-Nv-Zb5"/>
+                            <constraint firstItem="Wg7-9x-VT2" firstAttribute="top" secondItem="w0U-yZ-u5d" secondAttribute="bottom" constant="27" id="HpM-hk-5BF"/>
+                            <constraint firstItem="ZMW-Cg-Trg" firstAttribute="top" secondItem="bqb-Na-Pxg" secondAttribute="bottom" constant="27" id="Ij9-HP-qEe"/>
+                            <constraint firstItem="ZMW-Cg-Trg" firstAttribute="leading" secondItem="bqb-Na-Pxg" secondAttribute="leading" id="NHY-2u-Z2O"/>
+                            <constraint firstItem="w0U-yZ-u5d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="105" id="U8g-2V-0Xn"/>
+                            <constraint firstItem="bqb-Na-Pxg" firstAttribute="top" secondItem="Wg7-9x-VT2" secondAttribute="bottom" constant="27" id="ucQ-CM-CCb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="contact" id="NPx-NU-bVf">
+                        <barButtonItem key="rightBarButtonItem" title="contact" id="O5a-SR-thx">
+                            <connections>
+                                <action selector="goToContact:" destination="BYZ-38-t0r" id="dC3-JS-lHl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uPS-7X-WgB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tYc-Yi-QmU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0g5-v9-PG6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8Si-kk-IEa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdF-mr-jQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="297"/>
+        </scene>
+    </scenes>
+</document>
